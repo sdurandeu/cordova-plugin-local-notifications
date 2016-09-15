@@ -127,6 +127,7 @@ public class Builder {
                 .setNumber(options.getBadgeNumber())
                 .setTicker(options.getText())
                 .setAutoCancel(options.isAutoClear())
+                .setPriority(2)
                 .setOngoing(options.isOngoing())
                 .setColor(options.getColor());
 
